@@ -1,4 +1,4 @@
-// Business logic:
+// Business logics:
 
 function add(number1, number2) {
   return number1 + number2;
@@ -41,7 +41,7 @@ $(document).ready(function() {
 });
 
 
-// Interface Logic: 
+// Interface Logics: 
 
 $(document).ready(function() {
   const number1 = parseInt($("#add1").val());
