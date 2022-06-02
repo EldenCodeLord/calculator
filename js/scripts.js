@@ -1,5 +1,6 @@
 function add(number1, number2) {
   return number1 + number2;
+
 }
 
 function subtract(number1, number2) {
@@ -51,5 +52,6 @@ $(document).ready(function() {
     const number2 = parseInt($("#divide2").val());
     const result = divide(number1, number2);
     $("#output4").text(result);
+
   });
 });
